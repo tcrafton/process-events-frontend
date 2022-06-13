@@ -1,9 +1,9 @@
-import React from 'react';
+import Layout from '@/components/Layout';
 
 export default function AboutPage() {
   return (
-    <div>
-      <h1>About</h1>      
-    </div>
+    <Layout title="About Process Events">
+      <h1>About</h1>
+    </Layout>
   );
 }
